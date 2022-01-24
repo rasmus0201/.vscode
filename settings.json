@@ -1,0 +1,203 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.maxTokenizationLineLength": 500000,
+    "editor.inlineSuggest.enabled": true,
+    "editor.formatOnPaste": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "files.associations": {
+        "*.vue": "vue",
+        "*.html": "twig"
+    },
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/.svn/**": true,
+        "**/.gitlab/**": true,
+        "**/node_modules/*/**": true,
+        "**/bower_components/**": true,
+        "**/vendor/**": true,
+        "**/www/**": true
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[js]": {
+        "editor.formatOnSave": true,
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "mrmlnc.vscode-postcss-sorting"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.autoClosingBrackets": "always"
+    },
+    "[typescript]": {
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "prettier.jsxSingleQuote": true,
+
+    "php-imports.order": ["all.class"],
+    "php-imports.formatOnSave": true,
+    "php-imports.sort.order": "default",
+    "php-imports.sort.nestedOrder": "default",
+    "php-imports.print.wrap.limit": 120,
+    "php-imports.unused.enable": true,
+    "php-imports.psr12.enable": true,
+    "php-imports.psr12.isolateModifiers": false,
+    "php-imports.psr12.minGroupUsesCount": 2,
+    "php-imports.psr12.minNestedGroupUsesCount": 2,
+    "php-imports.psr12.minNestedGroupNestedUsesCount": 2,
+
+    "phpcs.showWarnings": true,
+    "phpcs.errorSeverity": 6,
+    "phpcs.executablePath": "/home/rso/guldfugl/vendor/bin/phpcs",
+    "phpcs.standard": "/home/rso/guldfugl/ruleset.xml",
+
+    "postcssSorting.config": {
+        "order": [
+            // "custom-properties",
+            // "dollar-variables",
+            // "declarations",
+            // "rules",
+            // "at-rules"
+        ],
+        "properties-order": [
+
+        ]
+    },
+
+    "intelephense.environment.phpVersion": "7.4.27",
+    "intelephense.phpdoc.functionTemplate": {
+        "summary": "$1",
+        "tags": [
+            "\n@param ${1:$SYMBOL_TYPE} $SYMBOL_NAME $2",
+            "\n@return ${1:$SYMBOL_TYPE} $2",
+            "\n@throws ${1:$SYMBOL_TYPE} $2"
+        ]
+    },
+    "intelephense.phpdoc.propertyTemplate": {
+        "summary": "",
+        "tags": [
+            "@var ${1:$SYMBOL_TYPE}"
+        ]
+    },
+    "intelephense.phpdoc.returnVoid": true,
+    "intelephense.stubs": [
+        "apache",
+        "bcmath",
+        "bz2",
+        "calendar",
+        "com_dotnet",
+        "Core",
+        "ctype",
+        "curl",
+        "date",
+        "dba",
+        "dom",
+        "enchant",
+        "exif",
+        "FFI",
+        "fileinfo",
+        "filter",
+        "fpm",
+        "ftp",
+        "gd",
+        "gettext",
+        "gmp",
+        "hash",
+        "iconv",
+        "imap",
+        "intl",
+        "json",
+        "ldap",
+        "libxml",
+        "mbstring",
+        "meta",
+        "mysqli",
+        "oci8",
+        "odbc",
+        "openssl",
+        "pcntl",
+        "pcre",
+        "PDO",
+        "pdo_ibm",
+        "pdo_mysql",
+        "pdo_pgsql",
+        "pdo_sqlite",
+        "pgsql",
+        "Phar",
+        "posix",
+        "pspell",
+        "readline",
+        "Reflection",
+        "session",
+        "shmop",
+        "SimpleXML",
+        "snmp",
+        "soap",
+        "sockets",
+        "sodium",
+        "SPL",
+        "sqlite3",
+        "standard",
+        "superglobals",
+        "sysvmsg",
+        "sysvsem",
+        "sysvshm",
+        "tidy",
+        "tokenizer",
+        "xml",
+        "xmlreader",
+        "xmlrpc",
+        "xmlwriter",
+        "xsl",
+        "Zend OPcache",
+        "zip",
+        "zlib",
+        "memcached",
+        "memcache"
+    ],
+
+    "i18n-ally.localesPaths": [
+        "./src/i18n/locales"
+    ],
+    "i18n-ally.enabledParsers": [
+        "json"
+    ],
+    "i18n-ally.sourceLanguage": "da",
+    "i18n-ally.displayLanguage": "da",
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.enabledFrameworks": [
+        "vue"
+    ],
+    "i18n-ally.extract.keyMaxLength": 180,
+    "i18n-ally.sortKeys": true,
+
+    "redhat.telemetry.enabled": false,
+    "git.ignoreLegacyWarning": true,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "files.insertFinalNewline": true
+}
